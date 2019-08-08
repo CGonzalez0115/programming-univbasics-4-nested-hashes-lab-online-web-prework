@@ -20,7 +20,6 @@ def hopper
 end
 
 def alan_kay_is_known_for
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
 	programmer_hash = 
  		{
@@ -30,8 +29,11 @@ def alan_kay_is_known_for
         },
         :alan_kay => {
           :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
+          :languages => ["Smalltalk", "LISP"]{
+					languages = {first: "SmallTalk", second: "LISP"}
+					languages[:third] = "pig latin"
+				},
+			},
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
